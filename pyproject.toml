@@ -1,5 +1,10 @@
 [build-system]
-requires = ["hatchling==1.11.1", "hatch-vcs==0.2.0"]
+requires = [
+    "hatchling>=1.27.0,<2",
+    "hatch-vcs==0.4.0,<0.6.0",
+    "setuptools>=77.0",
+    "setuptools_scm>=8.0",
+]
 build-backend = "hatchling.build"
 
 [project]
@@ -8,6 +13,7 @@ dynamic = ["version"]
 description = "Spectral extraction tools for Hubble Space Telescope Grisms"
 readme = "README.md"
 license = "GPL-3.0-or-later"
+license-files = ['LICENSE.txt']
 authors = [
     {name = "hstaxe and aXe developers"},
 ]
@@ -22,6 +28,7 @@ classifiers = [
     "Topic :: Scientific/Engineering :: Astronomy",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
+require-python = ">=3.7"
 dependencies = [
     "astropy",
     "drizzle",
