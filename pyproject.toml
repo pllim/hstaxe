@@ -9,7 +9,7 @@ description = "Spectral extraction tools for Hubble Space Telescope Grisms"
 readme = "README.md"
 license = "GPL-3.0-or-later"
 authors = [
-    { name = "hstaxe and aXe developers", email = "help@stsci.edu" },
+    {name = "hstaxe and aXe developers"},
 ]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
